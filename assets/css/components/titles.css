@@ -1,0 +1,7 @@
+h1 {
+    color: var(--logoColor);
+    text-shadow: .4rem .4rem 0rem var(--charcoal);
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 4rem;
+    cursor: pointer;
+}
