@@ -1,0 +1,14 @@
+.main-box {
+    display: inline-block;
+    padding: 4.2rem 4.4rem;
+    /* width: 63rem; */
+    /* height: 18.4rem; */
+    box-shadow: 1rem 1rem 0 var(--black);
+    background: var(--charcoal);
+
+    text-align: center;
+}
+
+.main-box h1 {
+    margin-bottom: 2.8rem;
+}
