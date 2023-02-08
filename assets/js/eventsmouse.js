@@ -1,11 +1,13 @@
-const btn = document.querySelector('#btn');
+const buttons = document.querySelectorAll('.main-button');
 
-btn.addEventListener('mousedown', () => {
-    btn.style.boxShadow = '0px 0px 0px #000';
-    btn.style.transform = 'translate(5px, 5px)';
+for (const button of buttons) {
+    button.addEventListener('mousedown', () => {
+        button.style.boxShadow = '0px 0px 0px #000';
+        button.style.transform = 'translate(5px, 5px)';
     })
 
-addEventListener('mouseup', () => {
-    btn.style.boxShadow = '5px 5px 0px #000';
-    btn.style.transform = 'translate(0px, 0px)';
-})
+    addEventListener('mouseup', () => {
+        button.style.boxShadow = '5px 5px 0px #000';
+        button.style.transform = 'translate(0px, 0px)';
+    })
+}

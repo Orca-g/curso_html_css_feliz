@@ -1,4 +1,5 @@
-h1 {
+.main-title {
+    margin-bottom: 2.8rem;
     color: var(--logoColor);
     text-shadow: .4rem .4rem 0rem var(--black);
     font-family: 'Press Start 2P', sans-serif;
