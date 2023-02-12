@@ -1,0 +1,24 @@
+.main-banner {
+    background-image: url(../../img/icons-g/orangutex.jpg);
+    background-size: 100%;
+    height: 80rem;
+    margin: auto;
+    border-bottom: 1rem solid var(--black) ;
+    /* padding: 1rem 2rem; */
+    max-width: 144rem;
+    width: 100%;
+} 
+
+.wrapper {
+    margin-top: 11.5rem;
+    margin-left: 9rem;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-evenly;
+    /* gap: 2rem; */
+}
