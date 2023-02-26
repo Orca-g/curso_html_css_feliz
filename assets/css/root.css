@@ -1,0 +1,26 @@
+:root {
+    font-size: 62.5%;
+
+    --actionFontColor: #eee;
+    --mainBtnFontColor: #eee;
+    --subtitleFontColor: #eee;
+    --titleFontColor: #f3b137;
+    
+    --headerBgColor: #6c91c2;
+    --mainBtnBgColor: #36827f;
+    --mainBoxBgColor: #373f47;
+    --actionBeforeBgColor: #373f47;
+    --mainSectionBgColor: #36827f;
+    --progressBarBgColor: #eee;
+    
+    --mainBtnHover: hwb(178 21% 39%);
+    --actionHover: #d9ff19;
+    --actionShadow: #d9ff19;
+
+    --progressBarValueColor: #6c91c2;
+
+    --borderColor: #000;  
+}
+
+
+

@@ -1,11 +1,9 @@
-.skill-tec {
-    /* display: grid;
-    grid-template-columns: 1fr 2.5fr;
-    align-items: center; */
+/* .skill-tec {
+   
     display: flex;
     align-items: center;
     gap: 2rem;
-    /* border: 1px solid black; */
+    
 }
 
 .skill-tec .icon {
@@ -18,6 +16,28 @@
     font-family: 'Press Start 2P', sans-serif;
     font-size: 2.5rem;
     color: var(--fontColor);
+} */
+
+
+.skill-tec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
+    margin-bottom: 4rem;
 }
 
+.skill-tec:nth-child(odd) {
+    margin-right: 5rem;
+}
+.skill-tec:nth-child(even) {
+    margin-left: 5rem;
+}
 
+.title {
+    margin-bottom: 1.6rem;
+    font-family: 'Press Start 2P', 'sans-serif';
+    font-size: 2.5rem;
+    color: var(--subtitleFontColor);
+}

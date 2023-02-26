@@ -1,13 +1,10 @@
 .main-banner {
-    background-image: url(../../img/icons-g/orangutex.jpg);
+    /* background-image: url(../../img/icons-g/orangutex.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
+    background: linear-gradient(to bottom, #800080, #f3b035);
     height: 80rem;
-    margin: auto;
-    border-bottom: 1rem solid var(--black) ;
-    /* padding: 1rem 2rem; */
-    max-width: 144rem;
-    width: 100%;
+    border-bottom: 1rem solid var(--borderColor);
 } 
 
 .wrapper {
@@ -21,5 +18,4 @@
 .navigation {
     display: flex;
     justify-content: space-evenly;
-    /* gap: 2rem; */
 }

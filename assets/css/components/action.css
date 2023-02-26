@@ -1,19 +1,19 @@
 .action {
     display: inline-flex;
     align-items: center;
+    /* margin-top: 5rem; */
     margin-right: 3rem;
-    color: var(--fontColor);
-    font-weight: 400;
-    font-size: 2rem;
+    color: var(--actionFontColor);
 }
 .action::before {
     content: '';
-    background: var(--charcoal);
     margin-right: 1rem;
     width: 1rem;
     height: 1rem;
+    background: var(--actionBeforeBgColor);
 }
+
 .action:hover::before {
-    background: var(--aBeforeHover);
-    box-shadow: 0rem 0rem 1rem .1rem var(--aBeforeHover);
+    background-color: var(--actionHover);
+    box-shadow: 0 0 1rem var(--actionShadow);
 }

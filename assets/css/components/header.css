@@ -1,15 +1,9 @@
 .header {
-    background: var(--bgColor);
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    margin: auto;
-    border-bottom: 1rem solid var(--black) ;
-    padding: 1rem 2rem;
-    max-width: 144rem;
-    width: 100%;
-} 
-
-/* .header .navigation {
-    text-align: right;
-} */
+    align-items: center;
+    
+    padding: 1rem 2rem; 
+    background: var(--headerBgColor);
+    border-bottom: 1rem solid var(--borderColor);
+}

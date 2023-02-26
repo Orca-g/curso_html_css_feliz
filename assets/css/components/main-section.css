@@ -1,0 +1,10 @@
+.main-section {
+    height: 74rem;
+    background: var(--mainSectionBgColor);
+    border-bottom: 1rem solid var(--borderColor);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+

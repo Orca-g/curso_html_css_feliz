@@ -1,4 +1,4 @@
-.main-title {
+/* .main-title {
     margin-bottom: 2.8rem;
     color: var(--logoColor);
     text-shadow: .4rem .4rem 0rem var(--black);
@@ -8,10 +8,26 @@
 }
 
 .main-title.-second {
-    /* margin-top: 5rem; */
     margin-bottom: 0rem;
-    /* text-align: center; */
+    
     
     color: var(--fontColor);
     text-shadow: none;
+} */
+
+.main-title {
+    margin-bottom: 2.8rem;
+    color: var(--titleFontColor);
+    text-shadow: .4rem .4rem 0rem var(--borderColor);
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 4rem;
+    cursor: pointer;
+}
+
+.main-title.-second {
+    margin-top: 5rem;
+    margin-bottom: 6rem;
+    
+    text-shadow: none;
+    color: var(--subtitleFontColor);
 }
