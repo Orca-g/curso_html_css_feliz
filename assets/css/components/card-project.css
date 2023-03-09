@@ -1,0 +1,14 @@
+.card-project {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+    width: 28rem;
+    height: 28rem;
+    box-shadow: 1rem 1rem 0 var(--borderColorWhite);
+    background: var(--cardBgColor);
+}
+
+.card-project.-orange {
+    background: var(--cardOrangeBgColor);
+}

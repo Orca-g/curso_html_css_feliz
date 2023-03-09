@@ -7,6 +7,8 @@
     --titleFontColor: #f3b137;
     
     --headerBgColor: #6c91c2;
+    --cardBgColor: #6c91c2;
+    --cardOrangeBgColor: #f3b131;
     --mainBtnBgColor: #36827f;
     --mainBoxBgColor: #373f47;
     --actionBeforeBgColor: #373f47;
@@ -20,6 +22,8 @@
     --progressBarValueColor: #6c91c2;
 
     --borderColor: #000;  
+    --borderColorWhite: #eee;  
+    --borderColorMainSection: #6c91c2;  
 }
 
 

@@ -1,7 +1,7 @@
 .main-section {
     height: 74rem;
     background: var(--mainSectionBgColor);
-    border-bottom: 1rem solid var(--borderColor);
+    border-bottom: 1rem solid var(--borderColorMainSection);
     
     display: flex;
     flex-direction: column;
