@@ -8,3 +8,10 @@
     align-items: center;
 }
 
+.main-section.-bgBlack {
+    height: auto;
+    background: black;
+    border-color: var(--borderColorGreen);
+
+    flex-direction: row;
+}
