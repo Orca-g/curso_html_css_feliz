@@ -7,7 +7,8 @@
     <title>Projeto portifólio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&family=Press+Start+2P&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/root.css">
     <link rel="stylesheet" href="assets/css/components/body.css">
@@ -23,12 +24,13 @@
     <link rel="stylesheet" href="assets/css/components/skill-tec.css">
     <link rel="stylesheet" href="assets/css/components/progress-bar.css">
     <link rel="stylesheet" href="assets/css/components/card-project.css">
+    <link rel="stylesheet" href="assets/css/components/wrapper-card.css">
     <script src="assets/js/eventsmouse.js" defer></script>
 </head>
 <body>
     <header class="header">
         <img src="" alt="logo">
- 
+
         <nav class="navigation">
             <a class="action" href="" lang="en">Skills</a>
             <a class="action" href="">Projetos</a>
@@ -132,16 +134,17 @@
 
     <section class="main-section -bgBlack">
         <h2 class="main-title -second">Projetos</h2>
-
-        <figure class="card-project">
-            <img class="logo" src="assets/img/firedlabs.svg" alt="Logo da FiredLabs">
-        </figure>
-        <figure class="card-project -orange">
-            <img class="logo" src="assets/img/collabcode.svg" alt="Logo da CollabCode">
-        </figure>
-        <figure class="card-project">
-            <img class="logo" src="" alt="Logo do Portfólio">
-        </figure>
+        <div class="wrapper-card">
+            <figure class="card-project">
+                <img class="logo" src="assets/img/firedlabs.svg" alt="Logo da FiredLabs">
+            </figure>
+            <figure class="card-project -orange">
+                <img class="logo" src="assets/img/collabcode.svg" alt="Logo da CollabCode">
+            </figure>
+            <figure class="card-project">
+                <img class="logo" src="" alt="Logo do Portfólio">
+            </figure>
+        </div>
     </section>
 </body>
 </html>

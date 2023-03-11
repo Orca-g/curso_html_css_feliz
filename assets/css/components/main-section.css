@@ -9,9 +9,8 @@
 }
 
 .main-section.-bgBlack {
-    height: auto;
+    height: 53rem;
     background: black;
     border-color: var(--borderColorGreen);
-
-    flex-direction: row;
+    align-items: stretch;
 }
