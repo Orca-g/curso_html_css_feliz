@@ -1,11 +1,11 @@
-.action {
+.main-action {
     display: inline-flex;
     align-items: center;
     /* margin-top: 5rem; */
     margin-right: 3rem;
     color: var(--actionFontColor);
 }
-.action::before {
+.main-action::before {
     content: '';
     margin-right: 1rem;
     width: 1rem;
@@ -13,7 +13,7 @@
     background: var(--actionBeforeBgColor);
 }
 
-.action:hover::before {
+.main-action:hover::before {
     background-color: var(--actionHover);
     box-shadow: 0 0 1rem var(--actionShadow);
 }
