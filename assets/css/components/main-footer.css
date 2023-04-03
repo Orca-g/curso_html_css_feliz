@@ -1,0 +1,9 @@
+.main-footer {
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+
+    height: 10rem;
+}
