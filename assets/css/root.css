@@ -3,10 +3,12 @@
 
     --actionFontColor: #eee;
     --mainBtnFontColor: #eee;
+    --mainDescription: #fff;
     --subtitleFontColor: #eee;
     --titleFontColor: #f3b137;
     
     --headerBgColor: #6c91c2;
+    --blueBgColor: #6c91c2;
     --cardBgColor: #6c91c2;
     --cardOrangeBgColor: #f3b131;
     --mainBtnBgColor: #36827f;
@@ -15,7 +17,7 @@
     --mainSectionBgColor: #36827f;
     --progressBarBgColor: #eee;
     
-    --mainBtnHover: hwb(178 21% 39%);
+    --mainBtnHover: #369c98;
     --actionHover: #d9ff19;
     --actionShadow: #d9ff19;
 
@@ -25,6 +27,8 @@
     --borderColorWhite: #eee;  
     --borderColorGreen: #36827f;  
     --borderColorMainSection: #6c91c2;  
+
+    --green: #36827f;
 }
 
 

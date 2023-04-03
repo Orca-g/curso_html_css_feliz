@@ -1,0 +1,56 @@
+.node-card {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.node-card::before {
+    content: '';
+
+    position: absolute;
+    bottom: calc(16rem + 1.5rem);
+    box-sizing: border-box;
+    height: 0;
+    width: 4rem;
+    border: .3rem dashed #000;
+    transform: rotate(90deg);
+
+    /* transform-origin: right center; */
+    /* background: #000; */
+}
+
+.node-card .title {
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: var(--green);
+    margin-bottom: 5rem;
+}
+
+.node-card .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 16rem;
+    height: 16rem;
+    
+    padding: 0 1.5rem;
+    border: .5rem solid #000;
+    background: #ceb02a;
+}
+
+.node-card.-clean .logo {
+    padding: 0;
+    border: 0;
+    background: transparent;
+}
+
+.node-card.-green .logo{
+    background: var(--green);
+}
+
+.node-card .logo img {
+    width: 100%;
+}
+ 

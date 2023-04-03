@@ -14,3 +14,9 @@
     border-color: var(--borderColorGreen);
     align-items: stretch;
 }
+
+.main-section.-bgBlue {
+    height: auto;
+    background: var(--blueBgColor);
+    border-color: var(--borderColor);
+}
