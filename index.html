@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -29,10 +30,12 @@
     <link rel="stylesheet" href="assets/css/components/button-arrow.css">
     <link rel="stylesheet" href="assets/css/components/node-card.css">
     <link rel="stylesheet" href="assets/css/components/main-carousel.css">
+    <link rel="stylesheet" href="assets/css/components/main-label.css">
     <link rel="stylesheet" href="assets/css/components/main-footer.css">
     <script src="assets/js/eventsmouse.js" defer></script>
     <script src="assets/js/carousel.js" defer></script>
 </head>
+
 <body>
     <header class="main-header">
         <img src="" alt="logo">
@@ -205,13 +208,30 @@
                     </figure>
                 </div>
             </div>
-            
+
             <button class="button-arrow -right"><span class="content">avançar</span></button>
         </section>
 
-        
-        <p class="main-description">Hoje, instrutor e desenvolvedor FrontEnd/UX pela CollabCode, Marco já trabalhou nas mais diversas áreas. Foi palhaço, entrou na área de TI como desenvolvedor HMI/PLC e gosta de ir descobrindo seu caminho conforme o percorre. Marco também tem uma crescente presença em comunidades de UX e Front-end, trabalhando para uní-las, palestra em empresas e eventos como o WebBR, escreve em diversos blogs como o da Caelum, o Pinceladas da Web e seu Medium, quando não está jogando Airsoft ou trocando ideias com amigos.</p>
+
+        <p class="main-description">Hoje, instrutor e desenvolvedor FrontEnd/UX pela CollabCode, Marco já trabalhou nas
+            mais diversas áreas. Foi palhaço, entrou na área de TI como desenvolvedor HMI/PLC e gosta de ir descobrindo
+            seu caminho conforme o percorre. Marco também tem uma crescente presença em comunidades de UX e Front-end,
+            trabalhando para uní-las, palestra em empresas e eventos como o WebBR, escreve em diversos blogs como o da
+            Caelum, o Pinceladas da Web e seu Medium, quando não está jogando Airsoft ou trocando ideias com amigos.</p>
     </section>
+
+    <form action="">
+        <label class="main-label" for="name">Nome</label>
+        <input type="text" id="name">
+
+        <label class="main-label" for="email">Email</label>
+        <input type="email" id="email">
+
+        <label class="main-label" for="mg">Mensagem</label>
+        <textarea id="mg"></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
 
     <footer class="main-footer">
         <a href="https://twitter.com" target="_blank">
@@ -225,4 +245,5 @@
         </a>
     </footer>
 </body>
+
 </html>
