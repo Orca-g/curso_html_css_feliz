@@ -1,0 +1,11 @@
+.main-form {
+    padding: 5rem 4rem;
+}
+
+.main-form .main-input {
+    margin-bottom: 2rem;
+}
+
+.main-form .main-input.-textarea {
+    margin-bottom: 4rem;
+}
