@@ -2,6 +2,10 @@
     padding: 5rem 4rem;
 }
 
+.main-form .main-title.-second {
+    margin-bottom: 5rem;
+}
+
 .main-form .main-input {
     margin-bottom: 2rem;
 }

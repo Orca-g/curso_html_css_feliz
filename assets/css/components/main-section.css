@@ -1,5 +1,6 @@
 .main-section {
-    height: 74rem;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
     background: var(--mainSectionBgColor);
     border-bottom: 1rem solid var(--borderColorMainSection);
     
@@ -7,16 +8,26 @@
     flex-direction: column;
     align-items: center;
 }
+.main-section .main-title.-second {
+    margin-bottom: 6rem;
+}
 
 .main-section.-bgBlack {
-    height: 53rem;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
     background: black;
     border-color: var(--borderColorGreen);
     align-items: stretch;
 }
+.main-section.-bgBlack .main-title.-second {
+    margin-bottom: 5rem;
+}
 
 .main-section.-bgBlue {
-    height: auto;
+    padding: 5rem 0;
     background: var(--blueBgColor);
     border-color: var(--borderColor);
+}
+.main-section.-bgBlue .main-title.-second {
+    margin-bottom: 7rem;
 }
