@@ -23,3 +23,7 @@
 .main-button:hover {
     background: var(--mainBtnHover);
 }
+
+.main-button.-full {
+    width: 100%;
+}
